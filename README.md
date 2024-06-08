@@ -10,8 +10,8 @@
 
 | [<img src="Documentation/form.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/ValidaFormulario) |
 | :----------------------------------------------------------: |
-| [<img src="Documentation/calculator.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/ValidaFormulario) |
-| [<img src="Documentation/timer.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/ValidaFormulario) |
+| [<img src="Documentation/calculator.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/CalculadoraJS) |
+| [<img src="Documentation/timer.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/Timer) |
 
    
 
