@@ -10,7 +10,7 @@
 
 | [<img src="Documentation/form.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/ValidaFormulario) | [<img src="Documentation/calculator.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/CalculadoraJS) |
 | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| [<img src="Documentation/reorder.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/MobileLanguageRanking) | [<img src="Documentation/ranking.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/MobileLanguageRanking) |
+| [<img src="Documentation/reorder.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/Reorder) | [<img src="Documentation/ranking.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/MobileLanguageRanking) |
 | [<img src="Documentation/timer.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/JavaScript/tree/main/Timer) |                                                              |
 |                                                              |                                                              |
 
