@@ -27,11 +27,11 @@ document.body.innerHTML = `
 <div class="displayed">
     <div class="container">
         <ol>
-        <li><button class="up">Up!</button>Swift (iOS)<button class="down">Down!</button></li>
-        <li><button class="up">Up!</button>JavaScript (React Native)<button class="down">Down!</button></li>
-        <li><button class="up">Up!</button>Dart (Flutter)<button class="down">Down!</button></li>
-        <li><button class="up">Up!</button>Kotlin (Android)<button class="down">Down!</button></li>
-        <li><button class="up">Up!</button>Java (Android)<button class="down">Down!</button></li>
+        <li><button class="up" type="button">up!</button>Swift (iOS)<button class="down" type="button">Down!</button></li>
+        <li><button class="up" type="button">up!</button>JavaScript (React Native)<button class="down" type="button">Down!</button></li>
+        <li><button class="up" type="button">up!</button>Dart (Flutter)<button class="down" type="button">Down!</button></li>
+        <li><button class="up" type="button">up!</button>Kotlin (Android)<button class="down" type="button">Down!</button></li>
+        <li><button class="up" type="button">up!</button>Java (Android)<button class="down" type="button">Down!</button></li>
         </ol>
     </div>
 </div>`;
