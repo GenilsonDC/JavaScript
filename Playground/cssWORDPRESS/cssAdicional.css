@@ -1,0 +1,346 @@
+/* ----INICIO HEADER --- */
+
+.header a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+.header .container {
+  width: 100%;
+  padding: 0px 25px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: opacity 0.5s;
+}
+.hidden {
+  opacity: 0;
+}
+
+.header:hover::before {
+  opacity: 1;
+}
+
+.header_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  background-color: rgb(255, 255, 255);
+}
+
+.header_content.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: bottom;
+  width: calc(30% - 3px);
+  height: 80px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.logo img {
+  margin-bottom: -3px;
+  width: auto;
+  height: auto;
+}
+
+.header_bar {
+  display: inline-block;
+  vertical-align: bottom;
+  width: calc(70% - 20px);
+  text-align: center;
+}
+.header .cta-button {
+  display: inline-block;
+  width: 260px;
+  height: 45px;
+  background-color: #000000;
+  font-weight: 600;
+  color: #fcfcfc;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: ease-in-out 300ms;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  background-position: center left 5px;
+  border: 1px solid #000;
+}
+
+.cta-button:hover {
+  background-color: #f7f7f7;
+  color: #000000;
+  border: 1px solid #000;
+}
+
+.topo_bar {
+  float: left;
+  width: 100%;
+}
+
+.topo_bar li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.topo_bar li.bt_menu {
+  display: none;
+}
+
+.header .menu {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.header .menu li {
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+}
+
+.header .menu li a.opc_menu {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #383838;
+}
+
+.header .menu li a.opc_menu:hover {
+  color: #000000;
+}
+
+/* Estilo para o menu hamburguer */
+@media (min-width: 55px) and (max-width: 860px) {
+  .header .header_bar {
+    display: inline-block;
+    vertical-align: bottom;
+    width: calc(70% - 20px);
+    text-align: left;
+  }
+
+  .header .header_bar {
+    width: 100%;
+  }
+  .logo {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .menu-icon div {
+    width: 35px;
+    height: 5px;
+    background-color: #0e0e0e;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 30px;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .menu ul li {
+    margin: 10px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu-icon.open div:nth-child(1) {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .menu-icon.open div:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-icon.open div:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+}
+
+/* ----FIM HEADER --- */
+
+.form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-grid .column {
+  flex: 1 1 calc(50% - 20px); /* Faz as colunas ocuparem metade da largura */
+  box-sizing: border-box;
+}
+
+.form-grid .columnbtn {
+  box-sizing: border-box;
+  flex: 40%;
+}
+
+@media (max-width: 768px) {
+  .form-grid .column {
+    flex: 1 1 100%; /* Ajusta para uma coluna em telas menores */
+  }
+}
+/* ----INICIO PROCESSO SELETIVO--- */
+
+.col_resps ol,
+.col_resps ul {
+  list-style: none;
+}
+
+.col_resps ul li {
+  float: left;
+  width: 100%;
+  padding: 20px 0px;
+  border-bottom: 1px solid #000000;
+  opacity: 0.5;
+  text-align: left;
+  font-size: 15px;
+}
+
+.col_resps ul li:hover {
+  opacity: 1;
+}
+
+.col_resps ul li.ativo {
+  opacity: 1;
+}
+
+.col_resps ul li span {
+  float: left;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  padding-right: 30px;
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.svg-inline--fa {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  color: #000000;
+}
+
+.col_resps ul li span .fa-caret-down {
+  display: block;
+}
+
+.col_resps ul li.ativo span .fa-caret-up {
+  display: block;
+}
+
+.col_resps ul li.ativo span .fa-caret-down {
+  display: none;
+}
+.central_atendimento svg {
+  height: 35px;
+  width: 35px;
+}
+
+.col_resps ul li p {
+  display: none;
+  float: left;
+  width: 100%;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 25px;
+}
+
+.central_blc_info .horario {
+  float: left;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  color: #1d1915;
+  line-height: 25px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.central_blc_info ul li a {
+  display: inline-block;
+  padding: 8px 0px;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: auto 19px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1d1915;
+}
+
+/* ----END PROCESSO SELETIVO--- */
+
+html.cinematico-theme .with-kubio-global-style,
+html.cinematico-theme .with-kubio-global-style p,
+html.cinematico-theme .wp-block-woocommerce-mini-cart-contents,
+html.cinematico-theme [data-kubio],
+html.cinematico-theme [data-kubio] p,
+html.cinematico-theme p[data-kubio] {
+  color: #ffffff00;
+  font-family: Poppins, Helvetica, Arial, Sans-Serif, serif;
+  font-size: 0px;
+  font-weight: 0;
+  line-height: 0;
+  text-transform: none;
+}
